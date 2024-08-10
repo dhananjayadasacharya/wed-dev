@@ -33,6 +33,28 @@ body {
 #natural-disasters h2{
     color: white;
 }
+#weather{
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    border: 0;
+    outline: 0;
+    color: white;
+    box-shadow: #444;
+    text-align: center;
+}
+#weather h2{
+    color: white;
+    
+}
+.iconoly{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
 #landslides{
     border-radius: 20px;
     backdrop-filter: blur(8px);

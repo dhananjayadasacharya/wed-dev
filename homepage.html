@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script type="module" src="./homepage.js"></script>
+    <script type="module" src="node.js"></script>
 </head>
 <body>
     <!-- Navbar -->
@@ -36,6 +37,18 @@
 
     <!-- Main Content -->
     <div class="main-content">
+        <div class="iconoly">
+        <i class="fa-solid fa-cloud" id="weather-icon"></i>
+        </div>
+        <section id="weather">
+            <h2>Weather Forecast</h2>
+            <div id="weather-app">
+                <h1>Current Weather</h1>
+                <p id="location">Fetching location...</p>
+                <i class="fa-solid fa-cloud" id="weather-icon"></i>                
+                <p id="weather">Fetching weather...</p>
+            </div>
+        </section>
         <section id="landslides">
             <h2>Landslides</h2>
             <p>
