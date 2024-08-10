@@ -47,6 +47,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/fireba
     localStorage.removeItem('loggedInUserId');
     signOut(auth)
     .then(()=>{
+        window.history.pushState(null,null,'index.html');
         window.location.href='index.html';
     })
     .catch((error)=>{
