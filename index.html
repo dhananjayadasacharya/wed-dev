@@ -5,9 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Das</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script type="module" src="auth.js"></script>
 </head>
 <body>
-    <h1>world is running</h1>
+    <div class="container">
+        <div class="form-box">
+            <h1 class="title">Sign Up</h1>
+            <div class="underline"></div>
+            <form>
+                <div id="signUpMessage" class="messageDiv" style="display: none;"></div>
+                <div id="signInMessage" class="messageDiv" style="display:none;"></div>
+                <div class="input-group">
+
+                    <div class="input-field namefield">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="fname" placeholder="Name">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" id="rEmail" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password"
+                        id="rPassword" placeholder="Password">
+                    </div>
+                    <p><span class="text">Password Suggestions </span><a href="#">Click Here</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button"class="signupbtn" id="submitSignUp">Sign Up</button>
+                    <button type="button" class="disable signinbtn" id="submitSignIn">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <script type="module" src="script.js"></script>
+    
 </body>
 </html>

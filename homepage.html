@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Preparedness</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script type="module" src="./homepage.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="brand">Disaster Prep</a>
+            <div class="hamburger">
+                <i class="fa fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="https://www.weather.com/" target="_blank" class="nav-link">Weather</a></li>
+                <li class="nav-item"><a href="#emergency-numbers" class="nav-link">Emergency Numbers</a></li>
+                <li class="nav-item"><a href="#natural-disasters" class="nav-link">Natural Disasters</a></li>
+                <li class="nav-item"><a href="#important-links" class="nav-link">Important Links</a></li>
+                <li class="nav-item user-dropdown">
+                    <a href="#" class="nav-link"><i class="fa fa-user"></i></a>
+                    <div class="dropdown-content">
+                        <div>Name: <span id="loggedUserName"></span></div>
+                        <div>Email: <span id="loggedUserEmail"></span></div>
+                        <button id="logout">Logout</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <section id="natural-disasters">
+            <h2>Landslides</h2>
+            <p>
+                Landslides are the downward movement of rock, soil, and debris under the influence of gravity, often triggered by heavy rainfall, earthquakes, volcanic activity, or human activities such as construction and mining. These natural disasters can occur rapidly and with devastating force, leading to significant property damage, infrastructure destruction, and loss of life. Landslides can vary in scale from small rockfalls to massive avalanches of earth and rock, depending on factors like the slope's steepness, the type of soil, and the amount of moisture present. Understanding and monitoring landslide-prone areas, implementing effective land use planning, and employing engineering solutions can help mitigate their impact and improve community resilience to these potentially destructive events.
+            </p>
+        </section>
+        <!-- Emergency Numbers Section -->
+        <section id="emergency-numbers">
+            <h2>Emergency Numbers</h2>
+            <ul>
+                <li>Emergency Services <a href="tel:+112">112</a></li>
+                <li>Ambulance <a href="tel:+911">102</a></li>
+                <li>Local Police <a href="tel:+123456789">123-456-789</a></li>
+                <!-- Add more numbers as needed -->
+            </ul>
+        </section>
+
+        <!-- Natural Disasters Section -->
+        <section id="natural-disasters">
+            <h2>Natural Disasters</h2>
+            <p>
+                Natural disasters can strike at any time. It is important to be prepared and know how to respond.
+                Earthquakes, floods, hurricanes, and wildfires are among the most common disasters that affect
+                communities worldwide. Stay informed and follow the advice of local authorities to stay safe.
+            </p>
+        </section>
+
+        <!-- Important Links Section -->
+        <section id="important-links">
+            <h2>Important Links</h2>
+            <ul>
+                <li>Disaster Preparedness Guide  <a href="https://ors.od.nih.gov/ser/dem/emergencyPrep/Pages/Disaster-Preparedness-Tips.aspx#:~:text=Prepare%20to%20be%20self%2Dsufficient,seasonal%20clothing%2C%20and%20sanitation%20supplies.">Click Here</a></li>
+                <li>Local Emergency Contacts  <a href="https://bengaluruurban.nic.in/en/helpline/">Click Here</a></li>
+                <li>Relief and Aid Organizations  <a href="https://guides.lib.berkeley.edu/c.php?g=496970&p=3626027">Click Here</a></li>
+                <!-- Add more links as needed -->
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
